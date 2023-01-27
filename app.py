@@ -48,5 +48,5 @@ def temperature_check(temp,unit):
             print("the patient's temperature is normal")       
 
 temperature_check(14,"C")
-temperature_check(100, "C")
+temperature_check(37, "C")
 temperature_check(37, "F")
