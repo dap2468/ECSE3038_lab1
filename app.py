@@ -12,4 +12,4 @@ def parallel(r):
     else:
         print ("not enough resistors")
 
-parallel([330,1000,2200])
+parallel([1000,330,2200])
