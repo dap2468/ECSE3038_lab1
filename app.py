@@ -30,6 +30,7 @@ def potential_divider(v,r):
 potential_divider(9,[3000,1000])
 
 
+
 def temperature_check(temp,unit):
     if(unit=='C'):
         if (temp<36):
@@ -42,7 +43,7 @@ def temperature_check(temp,unit):
     if(unit=='F'):
         if (temp<(36*(9/5))):
             print("the patient is hypothermic")
-        elif (temp>(36*(9/5))):
+        elif (temp>(37*(9/5))):
             print("the patient is hyperthermic")
         else:
             print("the patient's temperature is normal")       
